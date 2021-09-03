@@ -1,0 +1,183 @@
+ body{
+         margin: 0;
+         font-family: sans-serif;
+         width: 100%;
+         overflow-x: hidden;
+}
+header{
+       background-color: chocolate;
+            text-align: center;
+            min-height: 100px;
+            max-height: 180px;
+            height: 180px;
+            padding-top: 40px;
+}
+
+        h1{
+            margin:0;
+            text-shadow: 2px 2px 3px black;
+        }
+        
+        section{
+            margin-left: 5%;
+            width: 90%;
+        }
+        
+        header h2{
+            margin: 20px;
+            color:white;
+            text-shadow: 2px 2px 4px white,
+                         2px 4px 8px blue,
+                         3px 8px 10px chocolate;
+           
+        }
+        
+        .sectionTwo h2{
+            font-family: Agency FB, sans-serif;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+        
+        div h2{
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            font-family: Agency FB, sans-serif;
+            
+        }
+        
+        .one{
+            float:left;
+            width:40%;
+            padding: 20px;
+        }
+        
+        .blockOne{
+            float:right;
+            padding:15px;
+            margin-left: 10px;
+            cursor:pointer;
+        }
+        .video{
+            background-color: red;
+            width: 20px;
+            height: 20px;
+            padding: 10px 15px 10px 28px;
+            border-radius: 11px;
+        }
+        .play{
+            border:10px solid;
+            border-color: red red red white;
+            
+        }
+        .sectionOne{
+            overflow: hidden;
+            width: 100%;
+        }
+        .sectionTwo{
+            overflow: hidden;
+        }
+        .sectionThree{
+            overflow: hidden;
+            background-color: gainsboro;
+            margin-left: 0;
+            width: auto;
+        }
+        .price{
+            float: right;
+            font-weight: bold;
+        }
+
+        .price:before{
+            content: '$';
+        }
+        
+        .container{
+            width: 15%;
+            margin: 5px; 
+            text-align: center;
+            float:left;
+        }
+        .courseOne{
+            background-color: orange;
+            border: 2xp double red;
+            border-style: double;
+            border-radius: 0px 25px 0px 0px;
+            padding-bottom: 40px;
+        }
+        .courseTwo{
+            background-color: brown;
+            border: 2xp double red;
+            border-style: double;
+            border-radius: 0px 25px 0px 0px;
+            padding-bottom: 40px;
+        }
+        .courseThree{
+            background-color: darkblue;
+            border: 2xp double red;
+            border-style: double;
+            border-radius: 0px 25px 0px 0px;
+            padding-bottom: 40px;
+        }
+        .courseFour{
+            background-color: blueviolet;
+            border: 2xp double red;
+            border-style: double;
+            border-radius: 0px 25px 0px 0px;
+            padding-bottom: 40px;
+        }
+        .courseFive{
+            background-color: green;
+            border: 2xp double red;
+            border-style: double;
+            border-radius: 0px 25px 0px 0px;
+            padding-bottom: 40px;
+        }
+        
+        
+        h3{
+            color: white;
+            font-size: 16px;
+            margin: auto;
+            text-align:center;
+            padding-top: 50px;
+        }
+        .strip{
+            background-color: gold;
+            float:left;
+            border-radius: 0 20px 20px 0;
+            width: 80px;
+            margin-top: 5px;
+        }
+        .course{
+            width: 17%;
+            float: left;
+            padding: 1.5%;
+        }
+        
+        .dopInfo{
+            overflow: hidden;
+            width: 33%;
+            float: left;
+        }
+        .ourCourses{
+            padding-left: 20%;
+        }
+        .ourServices{
+            padding-left: 30%;
+        }
+        .links{
+            padding-left: 38%;
+        }
+        footer{
+            overflow: hidden;
+            background-color: black;
+            color: white;
+            padding-left: 5%;
+        }
+        footer p{
+            float:left;
+        }
+        #end{
+            float: right;
+        }
